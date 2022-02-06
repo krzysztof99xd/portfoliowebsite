@@ -1,0 +1,237 @@
+/* .profile-container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 15%;
+    min-height: fit-content;
+    flex-direction: column;
+} */
+.profile-details{
+    flex-direction: column;
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(67, 68, 68);
+    justify-content: center;
+}
+.profile-details-name{
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px;
+    overflow-wrap: break-word;
+    ;
+}
+.profile-details-role h1{
+    font-size: 35px;
+    font-family: cursive;
+    
+}
+.primary-text{
+    color: #25291c;
+    /* -webkit-text-stroke:#e6e49f; */
+    text-shadow:#e6e49f;
+}
+.highlighted-text{
+    color: #e6e49f;
+}
+/* .profile-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0;
+    
+    color: #25291c;
+    text-shadow:#e6e49f 3px 3px 5px;
+} */
+.profile-options{
+    display: flex;
+    margin: 5px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1b2f31;
+    border-radius: 50px;
+    border-color:  #e6e49f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 8em;
+    font-size: large;
+    font-weight: 600;
+    margin: 10px;
+
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #e3e7d3;
+    border-color:  #e6e49f;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 8em;
+    font-size: large;
+    font-weight: 600;
+    margin: 10px;
+
+  }
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #e3e7d3;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 8em;
+    font-size: large;
+    font-weight: 600;
+    margin: 10px;
+  }
+.icon-resume{
+    margin-left: 5px;
+}
+.CV-download{
+    text-decoration: none;
+}
+.icon-envelope{
+    margin-left: 5px;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px #e6e49f;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.profile-picture-background{
+    display: flex;
+    height: 95%;
+    width: 95%;
+    background-image: url("../images/LinkedinPhoto.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+.profile-picture-background:hover{
+    transform: scale(1.06);
+    transition: 1s ease-out;
+    transition: 1s ease-in;
+}
+.profile-description{
+    margin: 40px;
+    font-family: Garamond;
+    font-size: 21px;
+}
+.a-little-bit-about-me{
+    font-family: Brush Script MT;
+    font-size: 50px;
+}
+
+.qualification-tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+.qualification-button{
+    /* cursor: pointer; */
+    margin-bottom: 10px;
+    font-size: 20px
+}
+/* .qualification-button:hover{
+    color: aquamarine;
+} */
+.qualification-data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+}
+.qualification-subtitle{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+/* .qualification-calendar{
+
+} */
+.qualification-description{
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.qualification-rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #e6e49f;
+    border-radius: 50%;
+}
+.qualification-line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #e6e49f;
+    transform: translate(6px, -7px);
+}
+.github-parent{
+    margin-top: 25px;
+    /* border-top: 1px dotted black */
+}
+.github-profile-description{
+    margin-top: 25px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.github-nick{
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.github-picture{
+    margin-top: 15px;
+    background-image: url("https://avatars.githubusercontent.com/u/83342963?v=4");
+}
+.github-picture:hover{
+    transform: scale(1.03);
+    transition: 1s ease-in;
+    transition: 1s ease-out;
+}
+/* .qualification [data-content]{
+    display: none;
+}
+.qualification-active[data-content]{
+    display: block;
+} */
+
+@media screen and ( max-width: 800px){
+.profile-parent{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+}
+.profile-options{
+    flex-direction: column;
+    align-items: center;
+}
+.profile-picture{
+    height: 320px;
+    width: 320px;
+    align-items:center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 0px 0 50px;
+}
+}
