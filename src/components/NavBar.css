@@ -54,9 +54,9 @@
     .nav-links{
       color: white;
       padding: 1rem 1rem;
-      width: 90px;
-      height: 100px;
-      font-size: 16px;
+      width: 80px;
+      height: 90px;
+      font-size: 14px;
       display: flex;
       margin: 10px;
       align-items: center;
@@ -75,7 +75,7 @@
     font-weight: 500;
     margin: 7px;
     }
-    @media screen and ( max-width: 00px){
+    @media screen and ( max-width: 600px){
       .navbar-container {
         display: flex;
         justify-content: center;
@@ -84,9 +84,9 @@
       .nav-links{
         color: white;
         padding: 1rem 1rem;
-        width: 80px;
-        height: 90px;
-        font-size: 16px;
+        width: 70px;
+        height: 80px;
+        font-size: 14px;
         display: flex;
         margin: 10px;
         align-items: center;

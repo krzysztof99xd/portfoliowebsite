@@ -160,6 +160,7 @@
 .qualification-description{
     margin: 30px;
     font-family: 'Courier New', Courier, monospace;
+  
 }
 .qualification-rounder{
     display: inline-block;
@@ -222,11 +223,28 @@
     align-items: center;
 }
 .profile-picture{
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 300px;
     align-items:center;
     justify-content: center;
     align-content: center;
-    margin: 0 0px 0 50px;
+    margin: 0 0px 0 0;
 }
+.qualification-description{
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+.a-little-bit-about-me{
+    font-family: Brush Script MT;
+    font-size: 40px;
+}
+.profile-description{
+    margin: 30px;
+    font-size: 18px;
+}
+.qualification-title{
+    font-size: 20px;
+}
+
 }
