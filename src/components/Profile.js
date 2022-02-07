@@ -99,9 +99,9 @@ export default function Profile() {
                 <p>I am 23 years old Polish guy who currently studies at the University of Twente in the Netherlnads. As for Dutch people I am propably quite old, 23 years old and just a second year of Bachelor?
                 What was I doing before?</p>
                 <p>I was studying Marketing Management in Denmark, in a small city called Randers. After getting the internship in my second year where I had the opportunity to work actually in the industry I decided that it is not something what drives me and definitely not something I want to do until the end of my life.</p>
-                I decided that I would like to try myself in a different field. Therefore, I decided to come to the Netherlands to study Business Information Technology. It means that I take half classes together with <b>Computer Science</b> and the other half with <b>Industrial Engineering</b>.
+                I decided that I would like to try myself in a different field. Therefore, I came to the Netherlands to study Business Information Technology. It means that I take half classes together with <b>Computer Science</b> and the other half with <b>Industrial Engineering</b>.
                 I really enjoy my journey in the Netherlands so far and I enjoy programming as well. I am planning to develop myself in <b>Web Development</b> and <b>Data Science</b>. 
-                <p>When it comes to my hobbies, I enjoy calisthenics as well as cooking. Check it out in "My interests" tab.</p>
+                
             </div>
             <section className='qualification-section'>
                 <h2 classname="section-title">Qualification</h2>

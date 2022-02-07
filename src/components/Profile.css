@@ -160,7 +160,7 @@
 .qualification-description{
     margin: 30px;
     font-family: 'Courier New', Courier, monospace;
-  
+    font-size: 18px;
 }
 .qualification-rounder{
     display: inline-block;
