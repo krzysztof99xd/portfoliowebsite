@@ -34,20 +34,15 @@
     
 }
 .primary-text{
-    color: #25291c;
-    /* -webkit-text-stroke:#e6e49f; */
+    color: #989C94;
     text-shadow:#e6e49f;
+}
+.profile-role-tagline{
+    color: #989C94
 }
 .highlighted-text{
     color: #e6e49f;
 }
-/* .profile-role-tagline{
-    font-size: 19px;
-    margin: 5px 0 0;
-    
-    color: #25291c;
-    text-shadow:#e6e49f 3px 3px 5px;
-} */
 .profile-options{
     display: flex;
     margin: 5px;

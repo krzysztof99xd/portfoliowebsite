@@ -7,7 +7,7 @@ export default function StreetWorkout() {
     return (
         <div className="street-workout-container">
             <div className="interests-description">
-                <h2>Expect studies and work I have a lot of things which I like doing in my free time</h2>
+                <h2><em>Expect studies and work I have a lot of things which I like doing in my free time</em></h2>
             </div>
             
             <div className='street-workout-section'>

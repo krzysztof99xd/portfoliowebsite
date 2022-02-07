@@ -55,7 +55,7 @@ export default function Profile() {
                 <div className="profile-details">
                     <div className="profile-details-name">
                         <span className="primary-text">
-                            Hello I am <span id="highlighted-text" className="highlighted-text">Krzysztof</span>
+                            Hello I am <span id="highlighted-text" className="highlighted-text"><b>Krzysztof</b></span>
                         </span>
                     </div>
                     <div className="profile-details-role">
@@ -74,7 +74,7 @@ export default function Profile() {
                                     />
                             </h1>
                             <span className="profile-role-tagline">
-                            Eager to develop the friendly user interface
+                            Eager to develop the friendly user interface.
                             </span>
                         </span>
                     </div>
@@ -85,7 +85,7 @@ export default function Profile() {
                         </button>
                             <a className="CV-download" href='KrzysztofCVNetherland.pdf' download='KrzysztofCVNetherland.pdf'>
                          <button className="btn-primary"> Get resume 
-                         <i class="icon-resume far fa-file"></i></button>
+                         <i class="icon-resume fas fa-file-download"></i></button>
                         </a>      
                     </div>
                   

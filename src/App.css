@@ -19,7 +19,9 @@
 }
 .project-container{
   text-align: center;
+  /* background-color: rgb(255, 250, 232); */
 }
+
 .project-instance{
   display: inline-block;
   vertical-align: middle;
@@ -240,13 +242,11 @@
   }
   .interests-description{
     flex-direction: column;
-    /* position: absolute; */
+    font-family: 'Courier New', Courier, monospace;
   }
   .street-workout-section{
     width: 100%;
     flex-wrap: wrap;
-
-    /* position: relative; */
     
   }
   .street-workout-video{

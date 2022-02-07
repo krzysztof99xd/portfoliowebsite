@@ -25,7 +25,7 @@ export default function Footer() {
                             <input type="text" className="form-control" placeholder='Name' name="name"/>
                         </div>
                         <div className="col-8">
-                            <input type="email" className="form-control" placeholder='Email Address' name="email"/>
+                            <input type="email" className="form-control" placeholder='Your Email Address' name="email"/>
                         </div>
                         <div className="col-8">
                             <input type="text" className="form-control" placeholder='Subject' name="subject"/>
@@ -43,25 +43,12 @@ export default function Footer() {
                         <div className='footer-rights-description'>
                         2022 Krzysztof Wiesniakowski, All rights Reserved ©
                         </div>
-                    {/* <Link
-                    class='social-icon-link instagram'
-                    to='https://www.instagram.com/'
-                    target='_blank'
-                    aria-label='Instagram'
-                    >
-                    <i class='fab fa-instagram' />
-                    </Link> */}
                     </div>
                     <div className="footer-linkedin">
-                    <Link
-                    class='icon-description'
-                    to='/'
-                    target='_blank'
-                    aria-label='Instagram'
-                    >
-                           
+                        <a className = "icon-description" href= "https://www.linkedin.com/in/krzysztof-wiesniakowski-18260b181/"
+                        target='_blank'>   
                     <i class='fab fa-linkedin' />
-                    </Link>
+                        </a>
                     </div>
                 </div>
         </div>
