@@ -19,7 +19,6 @@
 }
 .project-container{
   text-align: center;
-  /* background-color: rgb(255, 250, 232); */
 }
 
 .project-instance{
@@ -118,15 +117,16 @@
 }
 .grid_container{
   display: flex;
+  margin: 20px;
   align-items: center;
   align-content: center;
   justify-content: center;
 }
 .grid_item{
   display: flex;
-  min-width: 28rem;
-  padding: 5px;
-  margin: 5px ;
+  min-width: 30rem;
+  padding: 20px;
+  margin: 20px ;
   gap: 2%;
 }
 .card-description{

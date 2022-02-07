@@ -1,12 +1,10 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
 import Typical from 'react-typical'
 import "./Profile.css"
 import "../App.css"
 import {useState, useEffect} from "react";
 
 export default function Profile() {
-    const [user, setUser] = useState("");
     const[login, setLogin]= useState("");
     const[avatar_url, setAvatar_url]= useState("")
     const API_URL = "https://api.github.com/users/krzysztof99xd"
@@ -65,11 +63,11 @@ export default function Profile() {
                                 loop={Infinity}
                                 steps={[
                                     "Eager to learn",
-                                    1000,
+                                    1500,
                                     "Student abroad",
-                                    1000,
+                                    1500,
                                     "Calisthenic",
-                                    1000,
+                                    1500,
                                         ]}
                                     />
                             </h1>

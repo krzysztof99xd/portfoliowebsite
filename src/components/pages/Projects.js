@@ -40,7 +40,7 @@ export default function Projects() {
 
 function renderRepo(repo){
     return(
-        <Card className= "grid-cards" style={{ width: '20rem' }}> 
+        <Card className= "grid-cards" style={{ width: '30rem' }}> 
         <Card.Img variant="top"  src="https://avatars.githubusercontent.com/u/83342963?v=4/10px18"  width="max-width" 
          alt="Card image cap" />
         <Card.Header className="card-title"><b>{repo.name}</b></Card.Header>
