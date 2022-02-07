@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Card from 'react-bootstrap/Card'
+import {Card} from 'react-bootstrap'
 import Footer from '../Footer'
 import {useState, useEffect} from "react";
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
