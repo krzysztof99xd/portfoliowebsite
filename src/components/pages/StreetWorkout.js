@@ -1,13 +1,11 @@
 import React from 'react'
 import Footer from '../Footer'
-import {useState, useEffect} from "react";
-import  ReactPlayer  from 'react-player';
 export default function StreetWorkout() {
   
     return (
         <div className="street-workout-container">
             <div className="interests-description">
-                <h2><em>Expect studies and work I have a lot of things which I like doing in my free time</em></h2>
+                <h2>Except studies and work I have a lot of things which I like doing in my free time</h2>
             </div>
             
             <div className='street-workout-section'>

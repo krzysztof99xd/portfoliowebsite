@@ -125,11 +125,11 @@
 }
 .profile-description{
     margin: 40px;
-    font-family: Garamond;
-    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 .a-little-bit-about-me{
-    font-family: Brush Script MT;
+    font-family: Garamond;
     font-size: 50px;
 }
 
@@ -233,7 +233,7 @@
 .qualification-description{
     margin: 20px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+    font-size: 14px;
 }
 .a-little-bit-about-me{
     font-family: Brush Script MT;

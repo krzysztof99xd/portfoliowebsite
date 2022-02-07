@@ -127,9 +127,9 @@ export default function Profile() {
                                             2020-2021
                                             </div>
                                             <div className='qualification-description'>
-                                            <em>I became a Teaching Assistant (TA) at BIT program. 
+                                            I became a Teaching Assistant (TA) at BIT program. 
                                                 I work with System Design course where I answer the student questions about <b>UML diagrams</b>, 
-                                                I help them with assignments. In the end of the course students are also introduced to the <b>GIT version control</b>, so I also help them with setting the git repository, introduce them to basic opartions there. In the end of the academic year I will become a TA for Data and Information course where will help students with <b>SQL queries, Web Development</b> and more.</em>
+                                                I help them with assignments. In the end of the course students are also introduced to the <b>GIT version control</b>, so I also help them with setting the git repository, introduce them to basic opartions there. In the end of the academic year I will become a TA for Data and Information course where will help students with <b>SQL queries, Web Development</b> and more.
                                             </div>
                                     </div>
                                     <div>
@@ -154,8 +154,8 @@ export default function Profile() {
                                             Oct 2021 - present
                                             </div>
                                             <div className='qualification-description'>
-                                            <em>Since I have been living almost 4 years abroad I decided that I must learn the language of the country where I live in (Unfortunately I did not do it in Denmark). 
-                                                Therefore, I decided to apply for the waiter position at the cafe in the University. I try to use there as much Dutch as possible (I take the Dutch classes at the language centre at the University of Twnente). <b>Hopelijk spreek ik over een jaar vloeiend Nederlands!</b> </em>   
+                                            Since I have been living almost 4 years abroad I decided that I must learn the language of the country where I live in (Unfortunately I did not do it in Denmark). 
+                                                Therefore, I decided to apply for the waiter position at the cafe in the University. I try to use there as much Dutch as possible (I take the Dutch classes at the language centre at the University of Twnente). <b>Hopelijk spreek ik over een jaar vloeiend Nederlands!</b>
                                             </div>
                                     </div>
                                 </div>
@@ -169,11 +169,11 @@ export default function Profile() {
                                             Jan 2020 - July 2020
                                             </div>
                                             <div className='qualification-description'>
-                                            <em>I managed to get an internship on my second year of studies. 
+                                            I managed to get an internship on my second year of studies. 
                                             I was mostly working with social media and paid ads. I was creating advertising content using <b>Adobe Creative Cloud </b>(mainly Adobe Illustartor and Adobe Photoshop). 
                                             As part of my marketing responsibilities I was also working with <b>Google Ads</b>. 
                                             My responsibility was also to maintain and update the company's website using <b>Wordpress</b>.
-                                            I also participated in Photoshop, InDesign and Illustrator courses.</em>
+                                            I also participated in Photoshop, InDesign and Illustrator courses.
                                             </div>
                                     </div>
 
@@ -198,8 +198,8 @@ export default function Profile() {
                                             Nov 2018 - July 2020
                                             </div>
                                             <div className='qualification-description'>
-                                                <em>Since I moved out from Poland to Denmark I wanted to lighten my parents wallet so I decided to have a part-time job. Undoubtedly I matured a lot during this period. 
-                                                I have improved my <b>time-management</b>, I learnt to <b>work under time pressure, deal much better with stress</b> and learnt how to make some nigiris. </em> 
+                                                Since I moved out from Poland to Denmark I wanted to lighten my parents wallet so I decided to have a part-time job. Undoubtedly I matured a lot during this period. 
+                                                I have improved my <b>time-management</b>, I learnt to <b>work under time pressure, deal much better with stress</b> and learnt how to make some nigiris.  
                                             </div>
                                     </div>
                                 </div>
