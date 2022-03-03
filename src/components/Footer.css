@@ -17,7 +17,6 @@
 }
 .footer-rights-description{
    margin: 5px;
-   
  }
 .footer-rights-description:hover{
     color: white;
@@ -107,6 +106,9 @@
     color: black;
 }
 @media screen and ( max-width: 800px){
+    .footer-container{
+        width: auto;
+    }
     .before-form-description{
         font-size: 19px;
     }
@@ -135,4 +137,10 @@
         text-align: center;
         width: 100%;
     } 
+    @media screen and ( max-width: 500px){
+        .footer-container{
+            width: auto;
+        }
+    }
+
 }

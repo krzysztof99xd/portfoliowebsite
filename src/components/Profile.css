@@ -124,14 +124,39 @@
     transition: 1s ease-in;
 }
 .profile-description{
-    margin: 40px;
+    margin: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.96;
+    background-image: linear-gradient(to right, #bdc0b991 , #e7eccf42);
 }
 .a-little-bit-about-me{
     font-family: Garamond;
-    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
 }
+.a-little-bit-about-me h1{
+    font-family: Garamond;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.description-technologies{
+    margin: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-style:dotted;
+    border-color: #acb1a7b6;
+   
+}
+
 
 .qualification-tabs{
     display: flex;
@@ -210,12 +235,16 @@
 } */
 
 @media screen and ( max-width: 800px){
+.profile-container{
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    }
 .profile-parent{
-    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    align-items:center;
     align-content: center;
 }
 .profile-options{
@@ -223,21 +252,29 @@
     align-items: center;
 }
 .profile-picture{
+    align-items:center;
+    justify-content: center;
+    align-content: center;
+    margin: 1px;
+}
+.profile-picture-background{
     height: 300px;
     width: 300px;
     align-items:center;
     justify-content: center;
     align-content: center;
-    margin: 0 0px 0 0;
 }
 .qualification-description{
     margin: 20px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-size: 15px;
+}
+.a-little-bit-about-me h1{
+    font-size: 35px;
 }
 .a-little-bit-about-me{
-    font-family: Brush Script MT;
-    font-size: 40px;
+    font-size: 17px;
+
 }
 .profile-description{
     margin: 30px;
@@ -246,5 +283,87 @@
 .qualification-title{
     font-size: 20px;
 }
+.profile-description{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.description-technologies{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+}
+@media screen and ( max-width: 500px){
+    .profile-container{
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .profile-parent{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .profile-options{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-picture{
+        height: 300px;
+        width: 300px;
+        align-items:center;
+        justify-content: center;
+        align-content: center;
+        margin: 1px;
+    }
+    .profile-picture-background{
+        align-items:center;
+        justify-content: center;
+        align-content: center;
+    }
+    .qualification-description{
+        margin: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+    }
+    .a-little-bit-about-me h1{
+        font-size:25px;
+    }
+    .a-little-bit-about-me{
+        font-size: 16px;
+    }
+    .profile-description{
+        margin: 20px;
+        font-size: 15px;
+    }
+    .qualification-title{
+        font-size: 19px;
+    }
+    .profile-description{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .description-technologies h2{
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 5px;
+    }
+    .description-technologies{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 18px;
+    }
 
 }

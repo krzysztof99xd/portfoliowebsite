@@ -94,13 +94,72 @@ export default function Profile() {
                     </div>
                 </div>  
             </div>
+            <div className='a-little-bit-about-me'>
+            <h1> A little bit about me</h1> 
+            I came to the Netherlands to study Business Information Technology. It means that I take half classes together with <b>Computer Science</b> and the other half with <b>Industrial Engineering</b>.
+                I really enjoy my journey in the Netherlands so far and I enjoy programming as well. I am planning to develop myself in <b>Web Development</b> and <b>Data Science</b>.
+                </div>
             <div className='profile-description'>
-                <h1 className='a-little-bit-about-me'> A little bit about me</h1> 
-                <p>I am 23 years old Polish guy who currently studies at the University of Twente in the Netherlnads. As for Dutch people I am propably quite old, 23 years old and just a second year of Bachelor?
+                <div className="description-technologies">
+                    <h2><b>Front-end technologies</b></h2>
+                    <li>
+                        HTML
+                    </li>
+                    <li>
+                        CSS
+                    </li>
+                    <li>
+                        JavaScript
+                    </li>
+                    <li>
+                        React (currently learning)
+                    </li>
+                    <li>
+                        Bootstrap (currently learning)
+                    </li>
+                </div>
+                <div className='description-technologies'>
+                <h2><b>Programming Languages</b></h2>
+                    <li>
+                        Java (I am also familiar with Jersey)
+                    </li>
+                    <li>
+                        Python
+                    </li>
+                    <li>
+                        SQL
+                    </li>
+                </div>
+                <div className='description-technologies'>
+                <h2><b>Programs and Tools</b></h2>
+                    <li>
+                        Figma
+                    </li>
+                    <li>
+                       GitHub and GitLab
+                    </li>
+                    <li>
+                       Scrum and Agile Methodologies
+                    </li>
+                    <li>
+                       Visual Studio Code
+                    </li>
+                    <li>
+                       Intelij
+                    </li>
+                    <li>
+                      Odoo
+                    </li>
+                    <li>
+                        JDBC
+                    </li>
+                    
+                </div>
+                {/* <p>I am 23 years old Polish guy who currently studies at the University of Twente in the Netherlnads. As for Dutch people I am propably quite old, 23 years old and just a second year of Bachelor?
                 What was I doing before?</p>
                 <p>I was studying Marketing Management in Denmark, in a small city called Randers. After getting the internship in my second year where I had the opportunity to work actually in the industry I decided that it is not something what drives me and definitely not something I want to do until the end of my life.</p>
                 I decided that I would like to try myself in a different field. Therefore, I came to the Netherlands to study Business Information Technology. It means that I take half classes together with <b>Computer Science</b> and the other half with <b>Industrial Engineering</b>.
-                I really enjoy my journey in the Netherlands so far and I enjoy programming as well. I am planning to develop myself in <b>Web Development</b> and <b>Data Science</b>. 
+                I really enjoy my journey in the Netherlands so far and I enjoy programming as well. I am planning to develop myself in <b>Web Development</b> and <b>Data Science</b>.  */}
                 
             </div>
             <section className='qualification-section'>

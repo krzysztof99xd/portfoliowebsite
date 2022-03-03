@@ -220,6 +220,8 @@
   .github-picture{
     max-width: 330px;
     align-items: center;
+    align-content: center;
+    justify-content: center;
   }
   .grid_container{
       grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
@@ -273,4 +275,72 @@
   .cooking-photo{
     flex-direction: column;
   }
+}
+  @media screen and ( max-width: 500px){
+    .project-container{
+      width: 100%;
+    }
+    .github-picture{
+      max-width: 310px;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+    }
+    .grid_container{
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+  }
+    
+    .grid_item{
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      max-width: 13rem;
+    }
+    .grid-cards{
+      width: 17rem;
+      margin-top: 10px;
+    }
+    
+    .street-workout-container{
+      width: 100%;
+      position: relative;
+    }
+    .interests-description{
+      flex-direction: column;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .street-workout-section{
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .street-workout-video{
+      flex-direction: column;
+      max-width: 350px;
+    }
+    .street-workout-description{
+      flex-direction: column;
+      bottom: 0;
+    }
+    .cooking-section{
+      width: 100%;
+      flex-wrap: column;
+    }
+    .cooking-description{
+      flex-direction: column;
+    }
+    .cooking-photo{
+      flex-direction: column;
+    }
+    .project-description{
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+      margin: 1px 1px 1px 1px;
+    }
   }
